@@ -108,7 +108,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return cursor;
     }
 
-    public boolean insertStudent(int id, String fname, String lname, String mail, String gender, String dob,String password ) {
+    public boolean updateStudent(int id, String fname, String lname, String mail, String gender, String dob,String password ) {
 
         SQLiteDatabase database = getReadableDatabase();
         ContentValues values = new ContentValues();

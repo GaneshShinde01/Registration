@@ -49,11 +49,11 @@
         app:layout_constraintVertical_bias="0.139" />
 
     <EditText
-        android:id="@+id/etemail"
+        android:id="@+id/etmail"
         android:layout_width="374dp"
         android:layout_height="61dp"
         android:ems="10"
-        android:hint="Enter your email"
+        android:hint="Enter your mail"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +140,7 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <Button
-        android:id="@+id/btndate"
+        android:id="@+id/btnselectdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SELECT DATE"
@@ -150,5 +150,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
